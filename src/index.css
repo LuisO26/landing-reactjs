@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.boton-cta{
+  margin-top: 50px;
+ background: rgb(211, 13, 13);
+ text-align: center;
+ border: 0px;
+ padding: 25px;
+ border-radius: 5px;
+ margin-bottom: 5%;
+}
+
+.cuadros{
+  height: 250px;
+  border: 2px solid rgb(223, 50, 151);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #999;
+}
+.dropDown{
+  border: 0px;
+  line-height: 38px;
+  background: none;
+}
+.navbar{
+  display: fixed;
+  margin-bottom: 0px;
+}
+.navegador{
+  background: rgba(000, 000, 000, 0.1);
+}
+.cta-comprar{
+  background-color: rgb(56, 1, 1);
+  color: #fff;
+}
+.imagen-carusel{
+  height:500px;
+}
+.input-cta{
+  margin-top: 50px;
+ text-align: center;
+ border: 1px solid #999;
+ margin-right: 10px;
+ padding: 25px;
+ border-radius: 5px;
+}
+.fondo-gris{
+      background: gray;
+      height: 500px;
+    }
+    .boton-cta{
+      margin-top: 50px;
+     background: rgb(211, 13, 13);
+     text-align: center;
+     border: 0px;
+     padding: 25px;
+     border-radius: 5px;
+    }
+    
+@media (min-width : 640px){
+  .cuadros{
+    height: 250px;
+    border: 2px solid rgb(223, 50, 151);
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 23.6%;
+    background-color: #999;
+  }
+  .boton-cta1{
+    margin-top: 50px;
+   background: rgb(211, 13, 13);
+   text-align: center;
+   border: 0px;
+   padding: 15px;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin-right: 10px;
+   margin-left: 10px;
+   border-radius: 5px;
+  }
+
+    .carusel{
+      margin-top: 0px;
+    }
+    
+    .parrafo-cta{
+      font-size: 22px;
+    }
+    .parrafo-inicio{
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+    .quienes-somos{
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .titulo{
+      margin-bottom: 25px;
+    }
+    .cta-comprar{
+      background-color: rgb(56, 1, 1);
+      padding-top: 100px;
+      padding-bottom: 100px;
+      color: #fff;
+    }
+    .text-s40{
+      margin-right: 40%;
+    }
+    
+    .talleres-cursos {
+      padding-top: 80px;
+    }
+    .margin-50{
+      margin-top:50px;
+    }
+    .cta-buscar{
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+    
+  
+  
+}
+
+@media (max-width : 640px){
+  h1{
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  p{
+    font-size: 14px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .boton-cta1{
+    margin-top: 50px;
+   background: rgb(211, 13, 13);
+   text-align: center;
+   border: 0px;
+   padding: 25px;
+   display: block;
+   margin-left: 40%;
+   border-radius: 5px;
+  }
+}
